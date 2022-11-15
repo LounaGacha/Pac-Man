@@ -1,0 +1,48 @@
+PShape rect1, rect2, rect3, rect4, T1, T2, T3, L1, L2;
+
+void plateau() {
+  rectMode(CENTER);
+  noFill();
+  stroke(99,66,224);
+  strokeWeight(5);
+  rect(width/2,height/2,180,80);
+  stroke(255,191,226);
+  strokeCap(SQUARE);
+  line(width/2-20,height/2-40,width/2+20,height/2-40);
+
+rect1 = createShape(RECT, 0, 0, 120, 50);
+rect1.setFill(false);
+rect1.setStrokeWeight(3);
+rect1.setStroke(color(60,21,203));
+
+rect2 = createShape(RECT, 0, 0, 80, 50);
+rect2.setFill(false);
+rect2.setStrokeWeight(3);
+rect2.setStroke(color(60,21,203));
+
+rect3 = createShape(RECT, 0, 0, 80, 20);
+rect3.setFill(false);
+rect3.setStrokeWeight(3);
+rect3.setStroke(color(60,21,203));
+
+rect4 = createShape(RECT, 0, 0, 30, 80);
+rect4.setFill(false);
+rect4.setStrokeWeight(3);
+rect4.setStroke(color(60,21,203));
+
+T1 = createShape();
+T1.beginShape();
+T1.noFill();
+T1.strokeWeight(3);
+T1.stroke(60,21,203);
+T1.vertex(0,0);
+T1.vertex(0,20);
+T1.vertex(75,20);
+T1.vertex(75,80);
+T1.vertex(105,80);
+T1.vertex(105,20);
+T1.vertex(180,20);
+T1.vertex(180,0);
+T1.endShape(CLOSE);
+
+}
