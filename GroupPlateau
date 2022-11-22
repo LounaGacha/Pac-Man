@@ -1,4 +1,4 @@
-PShape rect1, rect2, rect3, rect4, T1, T2, T3, L1, L2;
+PShape rect1, rect2, rect3, rect4, T1, T2_1, T2_2, T3, L1, L2;
 
 void plateau() {
   rectMode(CENTER);
@@ -44,5 +44,20 @@ T1.vertex(105,20);
 T1.vertex(180,20);
 T1.vertex(180,0);
 T1.endShape(CLOSE);
+
+T2_1 = createShape();
+T2_1.beginShape();
+T2_1.noFill();
+T2_1.strokeWeight(3);
+T2_1.stroke(60,21,203);
+T2_1.vertex(0,0);
+T2_1.vertex(30,0);
+T2_1.vertex(30,60);
+T2_1.vertex(90,60);
+T2_1.vertex(90,75);
+T2_1.vertex(30,75);
+T2_1.vertex(30,150);
+T2_1.vertex(0,150);
+T2_1.endShape(CLOSE);
 
 }
