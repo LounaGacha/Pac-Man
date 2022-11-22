@@ -5,10 +5,10 @@ void plateau() {
   noFill();
   stroke(99,66,224);
   strokeWeight(5);
-  rect(width/2,height/2,180,80);
+  rect(width/2,height/2-10,180,80);
   stroke(255,191,226);
   strokeCap(SQUARE);
-  line(width/2-20,height/2-40,width/2+20,height/2-40);
+  line(width/2-20,height/2-50,width/2+20,height/2-50);
 
 rect1 = createShape(RECT, 0, 0, 120, 50);
 rect1.setFill(false);
@@ -25,7 +25,7 @@ rect3.setFill(false);
 rect3.setStrokeWeight(3);
 rect3.setStroke(color(60,21,203));
 
-rect4 = createShape(RECT, 0, 0, 30, 80);
+rect4 = createShape(RECT, 0, 0, 30, 90);
 rect4.setFill(false);
 rect4.setStrokeWeight(3);
 rect4.setStroke(color(60,21,203));
@@ -38,8 +38,8 @@ T1.stroke(60,21,203);
 T1.vertex(0,0);
 T1.vertex(0,20);
 T1.vertex(75,20);
-T1.vertex(75,80);
-T1.vertex(105,80);
+T1.vertex(75,105);
+T1.vertex(105,105);
 T1.vertex(105,20);
 T1.vertex(180,20);
 T1.vertex(180,0);
@@ -52,12 +52,12 @@ T2_1.strokeWeight(3);
 T2_1.stroke(60,21,203);
 T2_1.vertex(0,0);
 T2_1.vertex(30,0);
-T2_1.vertex(30,60);
-T2_1.vertex(90,60);
-T2_1.vertex(90,75);
-T2_1.vertex(30,75);
-T2_1.vertex(30,150);
-T2_1.vertex(0,150);
+T2_1.vertex(30,85);
+T2_1.vertex(90,85);
+T2_1.vertex(90,100);
+T2_1.vertex(30,100);
+T2_1.vertex(30,175);
+T2_1.vertex(0,175);
 T2_1.endShape(CLOSE);
 
 }
