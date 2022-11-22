@@ -9,20 +9,20 @@ void draw() {
   
   
   plateau();
-  shape(rect1, width/2-130,height/2-280);
-  shape(rect1, width/2+130,height/2-280);
-  shape(rect2, width/2-290,height/2-280);
-  shape(rect2, width/2+290,height/2-280);
-  shape(rect3, width/2-290,height/2-185);
-  shape(rect3, width/2+290,height/2-185);
-  shape(rect3, width/2-145,height/2+165);
-  shape(rect3, width/2+145,height/2+165);
+  shape(rect1, width/2-130,height/2-310);
+  shape(rect1, width/2+130,height/2-310);
+  shape(rect2, width/2-290,height/2-310);
+  shape(rect2, width/2+290,height/2-310);
+  shape(rect3, width/2-290,height/2-210);
+  shape(rect3, width/2+290,height/2-210);
+  shape(rect3, width/2-145,height/2+185);
+  shape(rect3, width/2+145,height/2+185);
   shape(rect4, width/2-170,height/2+65);
   shape(rect4, width/2+170,height/2+65);
-  shape(T1, width/2-90,height/2-195);
-  shape(T1, width/2-90,height/2+100);
+  shape(T1, width/2-90,height/2-220);
+  shape(T1, width/2-90,height/2+95);
   shape(T1, width/2-90,height/2+240);
-  shape(T2_1, width/2-185,height/2-180);
+  shape(T2_1, width/2-185,height/2-220);
   
   
   line(mouseX-30,mouseY,mouseX+30,mouseY);
