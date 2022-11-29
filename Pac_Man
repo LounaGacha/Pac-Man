@@ -9,20 +9,27 @@ void draw() {
   
   
   plateau();
-  shape(rect1, width/2-130,height/2-310);
-  shape(rect1, width/2+130,height/2-310);
-  shape(rect2, width/2-290,height/2-310);
-  shape(rect2, width/2+290,height/2-310);
-  shape(rect3, width/2-290,height/2-210);
-  shape(rect3, width/2+290,height/2-210);
-  shape(rect3, width/2-145,height/2+185);
-  shape(rect3, width/2+145,height/2+185);
-  shape(rect4, width/2-170,height/2+65);
-  shape(rect4, width/2+170,height/2+65);
-  shape(T1, width/2-90,height/2-220);
-  shape(T1, width/2-90,height/2+95);
-  shape(T1, width/2-90,height/2+240);
-  shape(T2_1, width/2-185,height/2-220);
+  
+  //Partie supérieur
+  shape(rect1, width/2-130,height/2-330); // rect1 gauche long
+  shape(rect1, width/2+130,height/2-330); // rect1 droite long
+  shape(rect2, width/2-290,height/2-330); // rect2 gauche long
+  shape(rect2, width/2+290,height/2-330); // rect2 droite long 
+  shape(rect3, width/2-290,height/2-230); // rect3 gauche long
+  shape(rect3, width/2+290,height/2-230); // rect3 droite long
+  shape(T1, width/2-90,height/2-240); // T1 milieu
+  shape(T2_1, width/2-185,height/2-240); // T2_1 gauche
+  shape(T2_2, width/2+185,height/2-240);
+  
+  
+  //Partie inférieur
+  shape(rect4, width/2-130,height/2+170); // rect4 gauche long
+  shape(rect4, width/2+130,height/2+170); // rect4 droite long
+  shape(rect5, width/2-170,height/2+50); // rect5 gauche larg
+  shape(rect5, width/2+170,height/2+50); // rect5 droite larg
+  shape(T1, width/2-90,height/2+75); // T1 milieu haut
+  shape(T1, width/2-90,height/2+245); // T1 milieu bas
+  
   
   
   line(mouseX-30,mouseY,mouseX+30,mouseY);
